@@ -10,3 +10,6 @@ class NetmikoCheckpointGaia(NetmikoDefault):
     """Collection of Netmiko Nornir Tasks specific to Check Point Gaia devices."""
 
     config_command = '/usr/bin/clish -c "show configuration"'
+    remove_lines = [
+        r"^# Exported by .+ on .+$",
+    ]
