@@ -3,7 +3,7 @@
 from nornir_nautobot.plugins.tasks.dispatcher.default import NapalmDefault, NetmikoDefault
 
 
-class NapalmHPComware(NetmikoDefault):
+class NapalmHPComware(NapalmDefault):
     """Collection of Napalm Nornir Tasks specific to HPE Comware 5/7 devices."""
 
 

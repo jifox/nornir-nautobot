@@ -6,6 +6,7 @@ from nornir_nautobot.plugins.tasks.dispatcher.default import NapalmDefault, Netm
 class NapalmCheckpointGaia(NapalmDefault):
     """Collection of Napalm Nornir Tasks specific to Check Point Gaia devices."""
 
+
 class NetmikoCheckpointGaia(NetmikoDefault):
     """Collection of Netmiko Nornir Tasks specific to Check Point Gaia devices."""
 
